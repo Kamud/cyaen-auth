@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
-import Preloader from "./components/preloader";
+import Preloader from "../components/Preloader";
 import axios from "axios";
 
 export default function Home() {
